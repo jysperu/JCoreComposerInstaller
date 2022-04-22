@@ -5,6 +5,9 @@
       "composer-plugin-api": "^2.0",
       "composer/installers":"^1.0"
    },
+   "suggest":{
+      "jysperu/jcore" : "Núcleo/Framework JCore para PHP8",
+   },
    "extra":{
       "class":"JCore\\ComposerInstaller\\Plugin",
       "plugin-modifies-install-path":true
