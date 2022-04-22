@@ -1,0 +1,1 @@
+# jysperu/jcore-composer-installer

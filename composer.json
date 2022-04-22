@@ -1,0 +1,21 @@
+{
+   "name":"jysperu/jcore-composer-installer",
+   "type":"composer-plugin",
+   "require":{
+      "composer-plugin-api": "^2.0",
+      "composer/installers":"^1.0"
+   },
+   "extra":{
+      "class":"JCore\\ComposerInstaller\\Plugin",
+      "plugin-modifies-install-path":true
+   },
+   "autoload":{
+      "psr-4":{
+         "JCore\\ComposerInstaller\\":"src/",
+         "JCore\\ComposerInstaller\\Type\\":"src/types/"
+      }
+   },
+   "license":[
+      "GPL-3.0-or-later"
+   ]
+}
